@@ -1,7 +1,5 @@
 #include "Window.h"
 
-#include <functional>
-#include <tuple>
 #include <stdexcept>
 
 static ATOM static_RegisterClass(const TCHAR * classname, WNDPROC wndProc, HICON hIcon = nullptr, HCURSOR hCursor = nullptr) {
